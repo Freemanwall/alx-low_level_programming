@@ -1,7 +1,5 @@
 #include <stdlib.h>
-
 #include <time.h>
-
 #include <stdio.h>
 
 /**
@@ -38,5 +36,7 @@ int main(void)
                         printf("less than 6 and not 0\n");
         }
 	rreturn (0);
+
+	
 }	
 		       
