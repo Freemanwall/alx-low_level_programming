@@ -1,14 +1,24 @@
 #include "main.h"
 
 /**
- * add - check main
- * @a: An integer a
- * @b: An integer b
- * Description: Function that adds two integers and returns the result
- * Return: Result of addition of a and b
+ * _isalpha - Check Main
+ * @c: An input character
+ * Description: function returns 1 if the character is a
+ * letter, lowercase or uppercase.
+ * Return: 1 or 0 in otherwise.
  */
-
-int add(int a, int b)
+int _isalpha(int c)
 {
-	return (a + b);
+	char lower, upper;
+	int isletter = 0;
+
+	for (lower = 'a'; lower <= 'z'; lower++)
+	{
+		for (upper = 'A'; upper <= 'Z'; upper++)
+		{
+			if (c == lower || c == upper)
+				isletter = 1;
+		}
+	}
+	return (isletter);
 }
