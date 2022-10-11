@@ -1,9 +1,9 @@
-#ifndef DOG_H
-#define DOG_H
+#include <stdio.h>
+#include "dog.h"
 
 /*
  * File: dog.h
- * Auth: (cm-amos)Amos Mwongela
+ * Auth: Abdulkareem Sulaiman
  * Desc: Header file that defines a new type struct dog.
  */
 
